@@ -56,7 +56,7 @@ function displayPhotos() {
     // Event Listener, check when each is finished loading
     img.addEventListener('load', imageLoaded);
 
-    // Put the image inside <>, then put both inside imageContainer element
+    // Put <img> inside <a>, then put both inside imageContainer element
     item.appendChild(img);
     imageContainer.appendChild(item);
   });
